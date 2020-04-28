@@ -41,6 +41,7 @@ target_include_directories(clientcore_static
         ${CMAKE_CURRENT_SOURCE_DIR}/include
 )
 
+#precompiled headers
 target_precompile_headers(clientcore_static PRIVATE src/pch.h)
 
 # set MT / MTd static linking flags
