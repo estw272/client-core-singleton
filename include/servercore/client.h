@@ -3,7 +3,6 @@
 #define _CLIENT_H_8768765
 
 #include "../../src/connection.h"
-#include <queue>
 
 class Client {
 private:
