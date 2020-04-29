@@ -1,5 +1,5 @@
 # About
-Boost::Asio client (singleton) library
+Boost::Asio client (singleton) static library
 
 ## Dependencies
 Spdlog 
