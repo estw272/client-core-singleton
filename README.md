@@ -6,4 +6,4 @@ Spdlog
 Boost
 
 ## Usage
-Include servercore/client.h
+Include clientcore/client.h

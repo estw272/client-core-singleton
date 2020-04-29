@@ -1,6 +1,6 @@
 #include "pch.h"
 #include "connection.h"
-#include "../include/servercore/client.h"
+#include "../include/clientcore/client.h"
 
 std::shared_ptr<Connection> Connection::create(boost::asio::io_service& ios, 
 	std::string& ip, 

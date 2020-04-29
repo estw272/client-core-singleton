@@ -29,7 +29,7 @@ set(PRIVATE_HEADER_FILES
     src/macros.h
 )
 set(PUBLIC_HEADER_FILES 
-    include/servercore/client.h
+    include/clientcore/client.h
 )
 add_library(clientcore_static ${SOURCE_FILES} ${PRIVATE_HEADER_FILES} ${PUBLIC_HEADER_FILES})
 add_library(clientcore::singleton ALIAS clientcore_static)

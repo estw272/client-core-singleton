@@ -1,5 +1,5 @@
 #include "pch.h"
-#include "../include/servercore/client.h"
+#include "../include/clientcore/client.h"
 
 
 Client::Client(unsigned int num_threads) : 
