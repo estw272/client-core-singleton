@@ -1,4 +1,6 @@
-# About
+# client-core singleton
+
+## About
 Boost::Asio client (singleton) static library
 
 ## Dependencies
