@@ -14,7 +14,7 @@ int main() {
     const int ping_delay = 10;
 
     auto& cl = Client::instance();
-    cl.set_ping_delay(ping_delay);
+    cl.set_ping_delay(ping_delay); //0 = ping disabled
     cl.set_ping(ping_string);
     cl.connect("127.0.0.1", 1234);
     
