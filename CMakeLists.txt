@@ -19,6 +19,8 @@ set_project_warnings(project_warnings)
 if(EXISTS ${CMAKE_MODULE_PATH}/LibsPath.cmake)
     include(LibsPath)
 endif()
+#boost settings
+include(BoostSettings)
 
 set(SOURCE_FILES 
     src/client.cpp 
